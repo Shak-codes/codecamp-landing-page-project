@@ -162,7 +162,7 @@ body {
     background-color: limegreen;
 }
 
-@media (max-width: 1200px) {
+@media (max-aspect-ratio: 18/9) {
     #wrapper {
         flex-direction: column;
         align-items: center;
