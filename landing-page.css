@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+
+body {
+    font-family: ABeeZee;
+    /*background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png');*/
+    background-color: rgb(30, 30, 51);
+    color: whitesmoke;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    background-color: rgb(16, 16, 27);
+    
+    height: 5%;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 5px;
+    padding-right: 20px;
+    color: white;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(199, 199, 199);
+}
+
+.nav-link:visited {
+    text-decoration: none;
+}
+
+#header-img {
+    height: auto;
+    width: 5%;
+    margin-right: auto;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40vh;
+    padding-top: 100px;
+}
+
+#title {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 2.5%;
+}
+
+#display-pic {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 300px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+#tournaments {
+    font-size: 20px;
+    min-height: 50%;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "picture result result result"
+      "picture result result result"
+      "picture result result result";
+}
+
+.picture{grid-area: picture;}
+
+#trophy {
+    min-height: 200px;
+    min-width: 200px;
+    height: auto;
+    max-width: 90%;
+}
+
+
+
