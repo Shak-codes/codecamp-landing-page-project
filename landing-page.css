@@ -98,5 +98,78 @@ body {
     max-width: 90%;
 }
 
+#wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+}
 
+#test {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-self: flex-start;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+}
 
+#test2 {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-self: flex-end;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#video-caption {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#email-signup {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#email {
+    width: 50%;
+    height: 3%;
+    border: 2px solid black;
+    border-radius: 1%;
+}
+
+#submit {
+    width: 50%;
+    height: 4%;
+    border: 2px solid black;
+    border-radius: 1%;
+    background-color: whitesmoke;
+}
+
+#submit:hover {
+    background-color: limegreen;
+}
+
+@media (max-width: 800px) {
+    #wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    #test {
+        padding-right: 0px;
+    }
+}
