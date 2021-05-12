@@ -163,6 +163,10 @@ body {
 }
 
 @media (max-aspect-ratio: 18/37) {
+    h1 {
+        font-size: 30px;
+    }
+
     #wrapper {
         flex-direction: column;
         align-items: center;
@@ -173,11 +177,19 @@ body {
         padding-right: 0px;
     }
 
-    #who-am-i-text {
-        font-size: 20px;
+    #who-am-i {
+        font-size: 30px;
     }
 
+    #who-am-i-desc {
+        font-size: 25px;
+    }
+
+    #how-it-works {
+        font-size: 30px;
+    }
+    
     #how-it-works-desc {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
