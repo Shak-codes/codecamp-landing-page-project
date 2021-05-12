@@ -162,7 +162,7 @@ body {
     background-color: limegreen;
 }
 
-@media (max-aspect-ratio: 18/37) {
+@media (max-aspect-ratio: 9/16) {
     h1 {
         font-size: 30px;
     }
@@ -178,18 +178,18 @@ body {
     }
 
     #who-am-i {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #who-am-i-desc {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #how-it-works {
-        font-size: 30px;
-    }
-    
-    #how-it-works-desc {
         font-size: 25px;
+    }
+
+    #how-it-works-desc {
+        font-size: 20px;
     }
 }
