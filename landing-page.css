@@ -172,4 +172,12 @@ body {
     #test {
         padding-right: 0px;
     }
+
+    #who-am-i-text {
+        font-size: 20px;
+    }
+
+    #how-it-works-desc {
+        font-size: 20px;
+    }
 }
