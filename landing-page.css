@@ -65,7 +65,7 @@ body {
 #display-pic {
     margin-top: auto;
     margin-bottom: auto;
-    height: 300px;
+    height: 80%;
     width: auto;
     border: 2px solid black;
     border-radius: 5%;
@@ -145,14 +145,13 @@ body {
 
 #email {
     width: 50%;
-    height: 3%;
+    height: 30px;
     border: 2px solid black;
-    border-radius: 1%;
 }
 
 #submit {
     width: 50%;
-    height: 4%;
+    height: 40px;
     border: 2px solid black;
     border-radius: 1%;
     background-color: whitesmoke;
